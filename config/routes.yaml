@@ -4,3 +4,6 @@ controllers:
 HelloController:
     path: /bonjour
     controller : App\Controller\HelloController::sayHello
+HelloControllerName:
+    path: /bonjour/{name}
+    controller : App\Controller\HelloController::sayHelloUtil
