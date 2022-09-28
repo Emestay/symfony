@@ -22,3 +22,13 @@ Nous donnes un controller tout frais
 ```bash
 symfony console make:controller
 ```
+
+
+
+### MEMO
+
+#### -> Twig
+
+```
+{% block truc %} {% endblock %}
+```
