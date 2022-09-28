@@ -32,3 +32,10 @@ symfony console make:controller
 ```
 {% block truc %} {% endblock %}
 ```
+
+#### -> Flemme de SQL ?
+
+```
+symfony console make:entity
+```
+Il demande la table puis les fields un par un type/null?/etc...
