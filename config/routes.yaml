@@ -1,3 +1,6 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+HelloController:
+    path: /bonjour
+    controller : App\Controller\HelloController::sayHello
