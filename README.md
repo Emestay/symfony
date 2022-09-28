@@ -17,4 +17,8 @@ composer create-project symfony/website-skeleton [nom_site]
 symfony server:start -d
 ```
 
-## To be continued
+## Ajout de truc déja fait 
+Nous donnes un controller tout frais
+```bash
+symfony console make:controller
+```
