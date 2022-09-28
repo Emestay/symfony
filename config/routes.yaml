@@ -1,9 +1,13 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+
 HelloController:
     path: /bonjour
     controller : App\Controller\HelloController::sayHello
 HelloControllerName:
     path: /bonjour/{name}
     controller : App\Controller\HelloController::sayHelloUtil
+TestController:
+    path: /test/{test}
+    controller : App\Controller\TestController::TrouFolce
