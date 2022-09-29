@@ -18,7 +18,7 @@ symfony server:start -d
 ```
 
 ## Ajout de truc déjà fait 
-Nous donnes un controller tout frais
+Nous donnes un controller tout frais grace a MakerBundle
 ```bash
 symfony console make:controller
 ```
@@ -49,11 +49,12 @@ Et changer les champs entre {*}
 DATABASE_URL="mysql://root:{mdp}@127.0.0.1:{port}/{nomDB}?serverVersion=8&charset=utf8mb4"
 ```
 #
-#### -> Dans env changer les param
-Un-comment celle qu'on veut utiliser
-Et changer les champs entre {*}
+#### -> Connexion d'entités
 
-
-```sql
-DATABASE_URL="mysql://root:{mdp}@127.0.0.1:{port}/{nomDB}?serverVersion=8&charset=utf8mb4"
+Rajouter une entrée de type relation au noms pluriels de l'entite 🤨
+```bash
+field type relation
+    what class blabla ?
+nom de l'entité
+ManyToMany    
 ```
