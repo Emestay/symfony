@@ -58,3 +58,13 @@ field type relation
 nom de l'entité
 ManyToMany    
 ```
+#
+#### -> Fausse data
+
+Rajouter via composer les outils de generation de data
+```bash
+composer require --dev orm-fixtures
+composer require fakerphp/faker  
+```
+https://fakerphp.github.io/formatters/
+
